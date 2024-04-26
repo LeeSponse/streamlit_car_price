@@ -63,7 +63,7 @@ def run_ml() :
         print(y_pred)
 
         #4. 문자열 조합하기
-        st.write("당신의 구매 가능 예측 금액은" +str(y_pred)+ "달러 입니다.")    
+        st.write(f'당신의 구매 가능 예측 금액은 $ {y_pred}  입니다.')    
                 #f-string 으로도 가능 st.text(f'~~~~{y_pred}입니다.')
 
 
